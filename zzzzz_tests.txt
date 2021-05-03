@@ -688,4 +688,4 @@
 --- PASS: TestStrOpsTextJustify_XIsValid_02 (0.00s)
 PASS
 coverage: 91.2% of statements
-ok  	github.com/MikeAustin71/strmechops/strmech	0.837s
+ok  	github.com/MikeAustin71/strmech	1.440s
