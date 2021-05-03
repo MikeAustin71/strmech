@@ -1,12 +1,16 @@
-# *stmech* - String Mechanics
+# *strmech* - String Mechanics
 
 [![GoDoc](https://godoc.org/github.com/MikeAustin71/strmech?status.svg)](https://godoc.org/github.com/MikeAustin71/strmech)
 
-[**strmech**](https://github.com/MikeAustin71/stringopsgo), is a collection of string management utilities written in the [**Go**](https://golang.org/) Programming Language. 
+[**strmech**](https://github.com/MikeAustin71/strmech) is a software package containing a collection of string management utilities written in the [**Go**](https://golang.org/) Programming Language. 
 
 ***strmech*** provides simple string management routines which perform operations like string formatting, centering, justification trimming, numeric digit extraction and character manipulation. 
 
-Version 0.1.0 represents the first release of ***strmech*** which incorporates code transferred from Version 3.0 of [stringsopsgo](https://github.com/MikeAustin71/stringopsgo). The [stringsopsgo](https://github.com/MikeAustin71/stringopsgo) project has been deprecated and all future development of the string management toolbox will focus on ***strmech***.
+Version 0.0.1 represents the first release of ***strmech*** which incorporates code imported from Version 3.0 of [stringsopsgo](https://github.com/MikeAustin71/stringopsgo). The [stringsopsgo](https://github.com/MikeAustin71/stringopsgo) project has been deprecated and all future development of this string management toolbox will focus on the ***strmech*** package.
+
+Version 0.0.1 is a staging release designed to coordinate and verify documentation links and provide an initial release for testing on virtual machines running various operating systems. The first public release is planned for Version 0.1.0 which should be completed in the near future.
+
+
 
 ## Key Features  
 
@@ -27,6 +31,7 @@ Version 0.1.0 represents the first release of ***strmech*** which incorporates c
 + [Source Code Documentation](#source-code-documentation)
 + [Tests](#tests)
 + [Version](#version)
++ [Project Organization](#project-organization)
 + [License](#license)
 + [Comments](#comments-and-questions) 
 
@@ -48,7 +53,7 @@ tests are now completing successfully on *Linux Mint 19.2* and *Ubuntu 18.04.3*.
 ### Installation
 Use this command to download and install the ***strmech*** package locally. Note: ***strmech*** supports [Go Modules](https://golang.org/ref/mod).
 
-    go get github.com/MikeAustin71/strmech/@v0.1.0
+    go get github.com/MikeAustin71/strmech/@v0.0.1
 
 -- or --
 
@@ -89,7 +94,7 @@ The import example above shows an alias of 'sMech' which is optional.
 
 ## Tests
 
-Currently, the ***strmech*** package has 344 unit tests with a code coverage of 91%. 
+Currently, the ***strmech*** package has 344 unit tests with a code coverage of 91%. All tests are passing.
 
 Test coverage and outcomes are documented in:
 
@@ -99,9 +104,17 @@ Test coverage and outcomes are documented in:
 
 
 
+## Project Organization
+
+This [***strmech***](https://github.com/MikeAustin71/strmech) repository is used to store and distribute the ***strmech*** software package. All of the latest releases and all prior versions are stored here. 
+
+The development environment and all development activities use the [***strmechops***](https://github.com/MikeAustin71/strmechops) repository.
+
+
+
 ## Version
 
-Version 0.1.0 is the first release of ***strmech*** and is based on an earlier project, Version 3.0 of [stringsopsgo](https://github.com/MikeAustin71/stringopsgo). The [stringsopsgo](https://github.com/MikeAustin71/stringopsgo) repository has been deprecated and all future development of this string management toolbox will focus on ***strmech***. 
+Version 0.0.1 is the first release of ***strmech*** and is based on an earlier project, Version 3.0 of [stringsopsgo](https://github.com/MikeAustin71/stringopsgo). The ***stringsopsgo*** repository has been deprecated and all future development of this string management toolbox will focus on the ***strmech*** software package. 
 
 [Release Notes](./releasenotes.md)
 
