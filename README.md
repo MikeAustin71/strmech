@@ -10,8 +10,6 @@ Version 0.0.1 represents the first release of ***strmech*** which incorporates c
 
 Version 0.0.1 is a staging release designed to coordinate and verify documentation links and provide an initial release for testing on virtual machines running various operating systems. The first public release is planned for Version 0.1.0 which should be completed in the near future.
 
-
-
 ## Key Features  
 
 - Developed with  [**Go**](https://golang.org/) Version 1.16.3.
